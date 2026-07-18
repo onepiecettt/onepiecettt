@@ -1,0 +1,17 @@
+{
+  "type": "normal",
+  "fileName": "profile-onepiecettt.svg",
+  "backgroundColor": "#0d1117",
+  "foregroundColor": "#c9d1d9",
+  "strongColor": "#f0f6fc",
+  "weakColor": "#8b949e",
+  "radarColor": "#3fb950",
+  "growingAnimation": true,
+  "contribColors": [
+    "#161b22",
+    "#0e4429",
+    "#006d32",
+    "#26a641",
+    "#39d353"
+  ]
+}

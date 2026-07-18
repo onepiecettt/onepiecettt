@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="120" viewBox="0 0 800 120" role="img" aria-labelledby="title desc">
+  <title id="title">3D contribution graph</title>
+  <desc id="desc">Run the 3D contribution workflow to generate this graph.</desc>
+  <rect width="800" height="120" rx="8" fill="#0d1117" stroke="#30363d"/>
+  <text x="400" y="54" text-anchor="middle" fill="#f0f6fc" font-family="Arial, sans-serif" font-size="16">3D Contribution Graph</text>
+  <text x="400" y="78" text-anchor="middle" fill="#8b949e" font-family="Arial, sans-serif" font-size="13">Run the workflow once to generate the contribution graph.</text>
+</svg>

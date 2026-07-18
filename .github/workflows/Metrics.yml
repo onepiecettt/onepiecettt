@@ -1,0 +1,44 @@
+name: GitHub Metrics
+
+on:
+  schedule:
+    # Every day at 08:17 Asia/Shanghai (00:17 UTC)
+    - cron: "17 0 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Generate profile metrics
+        uses: lowlighter/metrics@latest
+        with:
+          # Create a repository secret named METRICS_TOKEN.
+          # A token without extra scopes is enough for public activity.
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: ${{ github.repository_owner }}
+          filename: github-metrics-onepiecettt.svg
+          template: classic
+          base: header, activity, repositories, metadata
+          config_timezone: Asia/Shanghai
+
+          plugin_languages: yes
+          plugin_languages_categories: markup, programming
+          plugin_languages_colors: github
+          plugin_languages_limit: 8
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_days: 30
+          plugin_languages_recent_load: 300
+          plugin_languages_sections: most-used
+          plugin_languages_threshold: 0%
+
+          plugin_lines: yes
+          plugin_lines_history_limit: 1
+          plugin_lines_repositories_limit: 4
+          plugin_lines_sections: base

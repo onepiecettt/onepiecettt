@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="90" viewBox="0 0 800 90" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub metrics</title>
+  <desc id="desc">Run the GitHub Metrics workflow to generate this profile card.</desc>
+  <rect width="800" height="90" rx="8" fill="#0d1117" stroke="#30363d"/>
+  <text x="400" y="40" text-anchor="middle" fill="#f0f6fc" font-family="Arial, sans-serif" font-size="16">GitHub Metrics</text>
+  <text x="400" y="64" text-anchor="middle" fill="#8b949e" font-family="Arial, sans-serif" font-size="13">Run the workflow once to generate the profile card.</text>
+</svg>
