@@ -63,8 +63,6 @@
 
 <div align="center">
   <img src="./github-metrics-onepiecettt.svg" alt="GitHub metrics" width="100%" />
-  <br />
-  <img src="./profile-3d-contrib/profile-onepiecettt.svg" alt="3D contribution graph" width="100%" />
 </div>
 
 <div align="center">
